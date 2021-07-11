@@ -25,7 +25,7 @@ Once the number of neurons and layers in the model were set, the data was compil
 The target for the model is the "Is-Successful" column. It signifies if the money was use effectively.
 
 <b>What variable(s) are considered to be the features for your model?</b><br>
-The features of this model are the NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT,SPECIAL_CONSIDERATIONS, STATUS, and ASK_AMT
+The features of this model are the NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT,SPECIAL_CONSIDERATIONS, STATUS, and ASK_AMT.
 
 <b>What variable(s) are neither targets nor features, and should be removed from the input data?</b><br>
 The EIN had no bearing on the outcomes as this is just another type of index. The EIN is also number based and would confuse the model. SPECIAL_CONSIDERATIONS is not a target because there is only a small percentage of cases that had any special consideration. STATUS was not a target because all rows had the same value of 1.
